@@ -18,7 +18,7 @@ class CustomerRepositoryTest {
         Customer customer = Customer.builder()
                 .firstName("Carlos")
                 .lastName("")
-                .email("carloss@gmail.com")
+                .email("carlowss@gmail.com")
                 .build();
         ///guarda el customer
         customerRepository.save(customer);
